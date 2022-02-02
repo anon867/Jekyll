@@ -16,23 +16,26 @@ Run a supported Call of Duty title, then run `Jekyll.UI.exe` and allow the progr
 
 ### Call of Duty: Vanguard
 
+- Localize
+- Key Value Pairs
+- Lua Files\*
+- Raw Files
+- Script Files\*
+- String Tables
+- Weapon
+- TrueType Fonts
+
 Currently not available for public release.
-
-### Call of Duty: Black Ops Cold War
-
-Currently not available for public release.
-
-### Call of Duty: Modern Warfare 2 Campaign Remastered
-
--   Localize
--   Lua Files\*
--   Map Entities
--   Raw Files
--   Script Files\*
--   String Tables
--   TrueType Fonts
 
 ### Call of Duty: Modern Warfare
+
+- Localize
+- Key Value Pairs
+- Lua File\*
+- Raw Files
+- Script Files\*
+- Weapon
+- TrueType Fonts
 
 Currently not available for public release.
 
