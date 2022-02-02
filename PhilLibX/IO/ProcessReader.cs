@@ -190,7 +190,7 @@ namespace PhilLibX.IO
         /// <returns>Resulting String</returns>
         public string ReadIW8EncryptedString(long address, int bufferSize = 3072, bool nullCheck = false)
         {
-            string decrypted = Decryption.DecryptStringIW8(ReadBytes(address, bufferSize));
+            string decrypted = System.Text.Encoding.UTF8.GetString(ReadBytes(address, bufferSize));
 
             if (nullCheck == true)
             {
@@ -211,7 +211,7 @@ namespace PhilLibX.IO
         /// <returns>Resulting String</returns>
         public string ReadT9EncryptedString(long address, int bufferSize = 3072, bool nullCheck = false)
         {
-            string decrypted = Decryption.DecryptStringT9(ReadBytes(address, bufferSize));
+            string decrypted = System.Text.Encoding.UTF8.GetString(ReadBytes(address, bufferSize));
 
             if (nullCheck == true)
             {
@@ -232,7 +232,7 @@ namespace PhilLibX.IO
         /// <returns>Resulting String</returns>
         public string ReadS4EncryptedString(long address, int bufferSize = 3072, bool nullCheck = false)
         {
-            string decrypted = Decryption.DecryptStringS4(ReadBytes(address, bufferSize));
+            string decrypted = System.Text.Encoding.UTF8.GetString(ReadBytes(address, bufferSize));
 
             if (nullCheck == true)
             {
