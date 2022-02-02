@@ -37,8 +37,6 @@ Currently not available for public release.
 - Weapon
 - TrueType Fonts
 
-Currently not available for public release.
-
 ### Call of Duty: Black Ops 4
 
 -   Raw Files
